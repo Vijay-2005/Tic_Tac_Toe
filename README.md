@@ -27,8 +27,5 @@ This is a simple Tic Tac Toe game created using HTML, CSS, and JavaScript.
 
 ## Demo
 
-You can try out the game [here](link_to_your_game_demo).
+You can try out the game [here]((https://tictactoezzz.netlify.app/).
 
-## License
-
-This project is licensed under the [MIT License](link_to_license_file), which means you can modify and distribute the code for personal or commercial purposes.
