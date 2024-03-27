@@ -60,11 +60,7 @@ const checkWinner = () => {
 
              if(pos1Val != "" && pos2Val != "" && pos3Val != ""){
                 if(pos1Val === pos2Val  && pos2Val === pos3Val){
-                    // for(let i = 0 ; i < 9 ; i++){
-                    //     if(boxes[i] !== ""){
-                    //         winnerPopUp.innerText =  "Draw";
-                    //     } 
-                    // }
+                    
                     
                     console.log(  pos1Val , "player won 🎉");
                     disableBoxes();
@@ -76,7 +72,7 @@ const checkWinner = () => {
                     
                 }else{
                     checkDraw();
-                    resetBtn.innerText = "New game";
+                    // resetBtn.innerText = "New game";
                 }
              }
 
@@ -95,7 +91,7 @@ const disableBoxes  = () =>{
 
 
 resetBtn.addEventListener('click' ,function(){
-    console.log('button was clicked');
+   
     boxes.forEach((box) => {
         box.innerText = '';
         box.disabled= false ;
