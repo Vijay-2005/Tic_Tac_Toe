@@ -1,0 +1,89 @@
+ *{
+    margin : 0 ;
+    padding: 0;
+ }
+ body {
+    background-color: #FEFAE0;
+    text-align: center;
+ }
+
+ 
+h1{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #7c5f42;
+    font-size: 3.5rem;
+}  
+h2{
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;
+    color: #7c5f42;
+    font-size: 2.5rem;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:1rem ;
+   
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    text-align: center;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: none;
+    background-color:#F6E98F;
+    box-shadow : 0 0 1rem rgba(0,0,0,0.3);
+    /* background-image: url(images/tic-tac-toe-oxo-holiday-tic-tac-toe-game-blue-cross-thumbnail.jpg); */
+    font-size: 8vmin;
+    color: #4a2d19;
+}
+}
+
+.reset_button{
+    padding: 1rem;
+    font: 1.25rem;
+    background-color: #3b2c17;
+    color: white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: none;
+    
+}
+
+#winnerPopUp{
+    display: none;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 8vw; /* Increase font size for smaller devices */
+    }
+    .game {
+        gap: 5vw; /* Increase gap for smaller devices */
+    }
+    .box {
+        height: 22vmin; /* Increase box size for better touch targets on smaller devices */
+        width: 22vmin;
+        font-size: 10vmin; /* Increase font size for better readability on smaller devices */
+    }
+}
+
+
